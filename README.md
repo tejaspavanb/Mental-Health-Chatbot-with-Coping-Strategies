@@ -1,6 +1,4 @@
-Here’s a **README** file that you can use for your GitHub repository to explain your **Mental Health Support Chatbot** project. This README covers all the key sections, including an overview, installation instructions, usage, and future improvements.
 
----
 
 # Mental Health Support Chatbot for Students
 
@@ -99,14 +97,4 @@ We welcome contributions! If you have ideas for improving the chatbot, feel free
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
----
 
-### **Next Steps**:
-- You can also include a screenshot of your chatbot in action if you decide to build a user interface later.
-- Create a `requirements.txt` file by running:
-  ```bash
-  pip freeze > requirements.txt
-  ```
-- Update any specific instructions as needed for additional features you might add in the future.
-
-Let me know if you'd like to tweak any part of this README!
