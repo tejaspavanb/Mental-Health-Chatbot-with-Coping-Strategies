@@ -37,7 +37,8 @@ def get_response(user_input):
         sentiment = "neutral"
     
     # Generate a response from the chatbot
-    response = chatbot(user_input, max_length=150, do_sample=True, temperature=0.7)
+   response = chatbot(user_input, max_length=100, do_sample=True, temperature=0.7, clean_up_tokenization_spaces=True, truncation=True, pad_token_id=50256, num_return_sequences=1)
+
     
     # Customize response based on sentiment
     if sentiment == "positive":
